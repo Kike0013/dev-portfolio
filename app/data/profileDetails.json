@@ -1,0 +1,22 @@
+[
+    {
+        "keyword": "firstName",
+        "value": "Rafael Enrique"
+    },
+    {
+        "keyword": "lastName",
+        "value": "Mella García"
+    },
+    {
+        "keyword": "title",
+        "value": "IT Engineer"
+    },
+    {
+        "keyword": "role",
+        "value": "Frontend Developer"
+    },
+    {
+        "keyword": "country",
+        "value": "Dominican Republic"
+    }
+]
