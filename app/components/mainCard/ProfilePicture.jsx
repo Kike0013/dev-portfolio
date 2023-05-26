@@ -1,13 +1,18 @@
 "use client";
 
-import Image from "next/image";
-
 const ProfilePicture = () => {
   return (
-    <Image 
+    <img
         src="/images/profile_pictured.png"
-        width="400"
-        height="400"
+        className="
+        w-[180px]
+        h-[180px]
+        
+        sm:w-[200px]
+        sm:h-[200px]
+        
+        xl:w-[240px]
+        xl:h-[240px]"
         alt="Profile picture"
         />
   )

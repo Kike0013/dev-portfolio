@@ -2,11 +2,12 @@
 import { useEffect, useRef, useState } from 'react';
 import NET from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
-import SectionCard from './components/SectionCard';
-import Container from './components/Container';
+import SectionCard from './components/SectionCards/SectionCard';
+import CardContainer from './components/CardContainer';
 import sectionData from './data/sectionCards'
-import Sidebar from './components/Sidebar';
+import ProfileContainer from './components/ProfileContainer';
 import MainCard from './components/mainCard/MainCard';
+import SectionCards from './components/SectionCards/SectionCards';
 
 export default function Home() {
 
@@ -45,15 +46,20 @@ export default function Home() {
   return (
     <div>
       <main ref={bgRef}>
-        <div className='h-screen flex'>
-          <Sidebar>
+        {/* <main> */}
+        <div className='
+        flex 
+        h-screen 
+        flex-col
+
+        md:flex-row
+        '>
+          <ProfileContainer>
             <MainCard />
-          </Sidebar>
-          <Container>
-            {sectionData.map(el => {
-              return <SectionCard data={el} />
-            })}
-          </Container>
+          </ProfileContainer>
+          <CardContainer>
+            <SectionCards sectionData={sectionData} />
+          </CardContainer>
         </div>
       </main>
     </div>
