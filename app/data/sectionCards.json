@@ -1,14 +1,18 @@
 [
     {
-        "title": "About Me"
+        "title": "About Me",
+        "url": "/about"
     },
     {
-        "title": "Projects && Experience"
+        "title": "Projects && Experience",
+        "url": "/experience"
     },
     {
-        "title": "CV / RESUME"
+        "title": "CV / RESUME",
+        "url": "/cv"
     },
     {
-        "title": "Contact"
+        "title": "Contact",
+        "url": "/contact"
     }
 ]

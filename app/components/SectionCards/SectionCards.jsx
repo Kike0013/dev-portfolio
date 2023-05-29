@@ -21,8 +21,8 @@ const SectionCards = ({ sectionData }) => {
         
         lg:max-w-md
         ">
-            {sectionData.map(el => {
-                return <SectionCard data={el} />
+            {sectionData.map((el, i) => {
+                return <SectionCard data={el} key={i} />
             })}
         </div>
     )

@@ -25,8 +25,8 @@ const MainCard = () => {
         <ProfilePicture />
       </div>
       <div className="lg:w-70 xl:w-78">
-        {profileData.map(el => {
-          return <Details data={el} />
+        {profileData.map((el, i) => {
+          return <Details data={el} key={i} />
         })}
       </div>
       <div className="flex justify-center">

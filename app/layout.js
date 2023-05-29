@@ -1,7 +1,13 @@
 "use client"
-import { useEffect } from "react"
+
+import { usePathname } from 'next/navigation'
+
 import { Source_Code_Pro } from 'next/font/google'
+import { useEffect, useRef, useState } from 'react';
+import NET from "vanta/dist/vanta.net.min";
+import * as THREE from "three";
 import './globals.css'
+import Navbar from './components/navbar/Navbar';
 
 const inter = Source_Code_Pro({ subsets: ['latin'] })
 
@@ -11,6 +17,8 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const pathname = usePathname()
 
   useEffect(() => {
     const threeScript = document.createElement("script");
@@ -38,9 +46,49 @@ export default function RootLayout({ children }) {
   },
     [])
 
+
+  const [bgEffect, setBgEffect] = useState(0)
+  const bgRef = useRef(null)
+
+  useEffect(() => {
+    if (!bgEffect) {
+      setBgEffect(
+        NET({
+          el: bgRef.current,
+          THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x4ec9b0,
+          backgroundColor: 0x1f1f2f,
+          points: 20.00,
+          maxDistance: 21.00,
+          spacing: 20.00,
+          showDots: false
+        })
+      )
+    }
+
+    return () => {
+      if (bgEffect) bgEffect.destroy()
+    }
+
+  }, [bgEffect])
+
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <main ref={bgRef} className='h-screen'>
+          <div className='z-9999'>
+            {pathname !== '/' ? <Navbar pathname={pathname} /> : null}
+            {children}
+          </div>
+        </main>
+      </body>
     </html>
   )
 }

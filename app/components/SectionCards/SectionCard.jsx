@@ -1,8 +1,10 @@
 "use client";
 
+import Link from "next/link";
+
 const SectionCard = ({ data }) => {
 
-    const { title } = data;
+    const { title, url } = data;
 
     return (
         <div className="
@@ -45,7 +47,9 @@ const SectionCard = ({ data }) => {
         lg:text-lg
         ">
                 <div className="flex flex-col items-center justify-center">
-                    <div className="font-semibold sm:text-lg md:text-xl">{title}</div>
+                    <Link href={url}>
+                        <div className="font-semibold sm:text-lg md:text-xl">{title}</div>
+                    </Link>
                 </div>
             </div>
         </div>
