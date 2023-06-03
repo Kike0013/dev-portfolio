@@ -1,0 +1,38 @@
+[
+    {
+        "num": "1",
+        "alt": "HTML"
+    },
+    {
+        "num": "2",
+        "alt": "CSS"
+    },
+    {
+        "num": "3",
+        "alt": "Javascript"
+    },
+    {
+        "num": "4",
+        "alt": "React"
+    },
+    {
+        "num": "5",
+        "alt": "Redux"
+    },
+    {
+        "num": "6",
+        "alt": "Bootstrap"
+    },
+    {
+        "num": "7",
+        "alt": "Tailwind"
+    },
+    {
+        "num": "8",
+        "alt": "Next"
+    },
+    {
+        "num": "9",
+        "alt": "Git"
+    }
+]
