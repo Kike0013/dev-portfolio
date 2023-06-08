@@ -3,7 +3,7 @@
 const ProfilePicture = () => {
   return (
     <img
-        src="/images/profile_pictured.png"
+        src="/images/profile_picture.png"
         className="
         w-[180px]
         h-[180px]

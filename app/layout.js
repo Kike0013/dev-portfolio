@@ -9,7 +9,7 @@ import * as THREE from "three";
 import './globals.css'
 import Navbar from './components/navbar/Navbar';
 
-const inter = Source_Code_Pro({ subsets: ['latin'] })
+const font = Source_Code_Pro({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -81,11 +81,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${font.className} bg-cover`}>
         <main ref={bgRef} className='h-screen'>
           <div className='z-9999'>
             {pathname !== '/' ? <Navbar pathname={pathname} /> : null}
             {children}
+            {console.log(bgEffect)}
           </div>
         </main>
       </body>

@@ -1,0 +1,55 @@
+{
+    "experience": [
+        {
+            "icons": [
+                "info",
+                "open",
+                "private"
+            ],
+            "card": {
+                "name": "OTIF",
+                "img": "otif",
+                "description": "Logistic and Transportation"
+            }
+        }
+    ],
+    "personal": [
+        {
+            "icons": [
+                "info",
+                "open",
+                "github"
+            ],
+            "card": {
+                "name": "PORTFOLIO",
+                "img": "portfolio",
+                "description": "Dev Portfolio"
+            }
+        },
+        {
+            "icons": [
+                "info",
+                "open",
+                "github"
+            ],
+            "card": {
+                "name": "OPTED",
+                "img": "opted",
+                "description": "Dictionary App"
+            }
+        }
+    ],
+    "other": [
+        {
+            "icons": [
+                "info",
+                "open"
+            ],
+            "card": {
+                "name": "DREAM",
+                "img": "dream",
+                "description": "Educational NGO"
+            }
+        }
+    ]
+}
