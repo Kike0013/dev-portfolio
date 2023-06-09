@@ -21,7 +21,7 @@ const Details = ({ data }) => {
                 <span className="text-[#1B9FDB]">{`{`}</span>
             </p>
             <p className="lg:indent-12 xl:indent-8">
-                <span className="text-[#CE9178]">"{value}"</span>
+                <span className="text-[#CE9178]">&quot;{value}&quot;</span>
             </p>
             <p>
                 <span className="text-[#1B9FDB]">{`}`}</span>
