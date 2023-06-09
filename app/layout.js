@@ -59,7 +59,7 @@ export default function RootLayout({ children }) {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.00,
+          minHeight: 900.00,
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
@@ -81,12 +81,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={`${font.className} bg-cover`}>
+      <body className={`${font.className}`}>
         <main ref={bgRef} className='h-screen'>
           <div className='z-9999'>
             {pathname !== '/' ? <Navbar pathname={pathname} /> : null}
             {children}
-            {console.log(bgEffect)}
           </div>
         </main>
       </body>

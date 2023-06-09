@@ -5,18 +5,9 @@ import projectData from '../../data/projectsData'
 const page = () => {
   return (
     <ContentContainer>
-      <h1 className="text-2xl ps-2 mb-2">Experience</h1>
-      <div className="flex gap-6 ps-2 mb-5">
-        <Project data={projectData.experience}/>
-      </div>
-      <h1 className="text-2xl ps-2 mb-2">Personal Projects</h1>
-      <div className="flex gap-6 ps-2 mb-5">
-        <Project data={projectData.personal} />
-      </div>
-      <h1 className="text-2xl ps-2 mb-2">Other Relevant Work Experience</h1>
-      <div className="flex gap-6 ps-2 mb-5">
-        <Project data={projectData.other}/>
-      </div>
+      <Project data={projectData.experience} title={"Experience"} />
+      <Project data={projectData.personal} title={"Personal Projects"} />
+      <Project data={projectData.other} title={"Other Relevant Work Experience"} />
     </ContentContainer>
   )
 }
