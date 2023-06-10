@@ -8,6 +8,7 @@ import NET from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
 import './globals.css'
 import Navbar from './components/navbar/Navbar';
+import ToastWarning from './components/ToastWarning';
 
 const font = Source_Code_Pro({ subsets: ['latin'] })
 
@@ -19,6 +20,13 @@ const font = Source_Code_Pro({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
 
   const pathname = usePathname()
+
+  const inDevelopment = ["/experience", "/cv", "/contact"].includes(pathname)
+  const [isOpen, setIsOpen] = useState(true)
+
+  useEffect(() => {
+    inDevelopment && setIsOpen(true)
+  }, [pathname])
 
   useEffect(() => {
     const threeScript = document.createElement("script");
@@ -90,6 +98,7 @@ export default function RootLayout({ children }) {
           <div className='z-9999'>
             {pathname !== '/' ? <Navbar pathname={pathname} /> : null}
             {children}
+            {isOpen && inDevelopment && <ToastWarning setIsOpen={setIsOpen} />}
           </div>
         </main>
       </body>
