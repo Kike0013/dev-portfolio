@@ -1,6 +1,6 @@
 import ContentContainer from "@/app/components/ContentContainer"
 
-const page = () => {
+const Cv = () => {
 
   return (
     <>
@@ -43,4 +43,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Cv

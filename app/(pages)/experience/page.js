@@ -6,7 +6,7 @@ import projectData from '../../data/projectsData'
 import ProjectDetail from "@/app/components/experience/ProjectDetail"
 import { useState } from "react"
 
-const page = () => {
+const Experience = () => {
 
   const [showDetail, setShowDetail] = useState(false)
 
@@ -22,4 +22,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Experience

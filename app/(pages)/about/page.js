@@ -4,7 +4,7 @@ import Skills from "@/app/components/aboutMe/Skills"
 import ProfilePicture from "@/app/components/mainCard/ProfilePicture"
 import Link from "next/link"
 
-const page = () => {
+const About = () => {
     return (
         <ContentContainer>
             <div className="
@@ -62,4 +62,4 @@ const page = () => {
     )
 }
 
-export default page
+export default About
