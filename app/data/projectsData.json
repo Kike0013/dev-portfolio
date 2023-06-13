@@ -4,13 +4,17 @@
             "icons": [
                 "info",
                 "open",
-                "private"
+                "github"
             ],
             "card": {
                 "name": "OTIF",
                 "img": "otif",
-                "description": "Logistic and Transportation"
-            }
+                "description": "Logistic and Transportation",
+                "detail": "OTIF (On Time In Full) is an online booking platform that mediates between shipping companies, logistics services and their shippers. Transport companies and logistics services companies offer shipments through the website and mobile apps."
+            },
+            "links": [
+                "https://www.otif.mx/"
+            ]
         }
     ],
     "personal": [
@@ -23,8 +27,13 @@
             "card": {
                 "name": "PORTFOLIO",
                 "img": "portfolio",
-                "description": "Dev Portfolio"
-            }
+                "description": "Dev Portfolio",
+                "detail": "My personal portfolio created with NextJS, where I show information aboout myself and the experience/projects I've had in Web Development."
+            },
+            "links": [
+                "https://mellarafael.vercel.app/",
+                "https://github.com/Kike0013/dev-portfolio"
+            ]
         },
         {
             "icons": [
@@ -35,8 +44,13 @@
             "card": {
                 "name": "OPTED",
                 "img": "opted",
-                "description": "Dictionary App"
-            }
+                "description": "Dictionary App",
+                "detail": "With this app you can search among hundreds of thousands of words in english and its definition."
+            },
+            "links": [
+                "https://opted.vercel.app/",
+                "https://github.com/Kike0013/opted-dictionary"
+            ]
         }
     ],
     "other": [
@@ -48,8 +62,12 @@
             "card": {
                 "name": "DREAM",
                 "img": "dream",
-                "description": "Educational NGO"
-            }
+                "description": "Educational NGO",
+                "detail": "The DREAM Project is an non governmental organization that provides high-quality educational opportunities to children, youth and families in the Dominican Republic. During my 4 years of experience working here, I was the IT Specialist, Salesforce Administrator and Monitoring & Evaluation Coordinator"
+            },
+            "links": [
+                "https://www.dominicandream.org/"
+            ]
         }
     ]
 }

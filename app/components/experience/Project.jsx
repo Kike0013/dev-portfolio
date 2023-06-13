@@ -1,6 +1,6 @@
 "use client"
 
-const Project = ({ data, title }) => {
+const Project = ({ data, title, setShowDetail }) => {
     return (
         <>
             <h1 className="text-2xl ps-2 mb-2">{title}</h1>
@@ -12,7 +12,9 @@ const Project = ({ data, title }) => {
                                 return <div key={i}><img className='w-[30px]' src={`/images/projects/icons/${el}.svg`} /></div>
                             })}
                         </div>
-                        <div className='bg-white border-4 border-[#4EC9B0] rounded-r-xl text-black w-[160px] h-[160px]'>
+                        <div className='bg-white border-4 border-[#4EC9B0] rounded-r-xl text-black w-[160px] h-[160px] cursor-pointer'
+                            onClick={() => setShowDetail(true)}
+                        >
                             <div className='flex flex-col items-center border-black border-b-2 mx-3'>
                                 <img className='mt-2 w-[60px]' src={`/images/projects/logos/${el.card.img}.svg`} />
                                 <span className='text-2xl font-bold mt-2'>{el.card.name}</span>
