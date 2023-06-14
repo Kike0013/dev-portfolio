@@ -24,7 +24,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                         <div className="mb-5 flex">
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
-                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} />
+                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} alt="logo" />
                                     <div className="text-center font-semibold">{el.card.description}</div>
                                 </div>
                                 <div>
@@ -50,7 +50,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                         <div className="mb-5 flex">
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
-                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} />
+                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} alt="logo" />
                                     <div className="text-center font-semibold">{el.card.description}</div>
                                 </div>
                                 <div>
@@ -76,7 +76,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                         <div className="mb-5 flex">
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
-                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} />
+                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} alt="logo" />
                                     <div className="text-center font-semibold">{el.card.description}</div>
                                 </div>
                                 <div>
