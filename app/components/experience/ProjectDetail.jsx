@@ -30,7 +30,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                                 <div>
                                     <div className="h-2/4 flex flex-col-reverse font-bold text-3xl"><span>{el.card.name}</span></div>
                                     <div className="h-2/4">{el.links.map((el, i) => {
-                                        return <div><a key={i} href={el} target="_blank">{el}</a><br /></div>
+                                        return <div key={i}><a href={el} target="_blank">{el}</a><br /></div>
                                     })}</div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                                 <div>
                                     <div className="h-2/4 flex flex-col-reverse font-bold text-3xl"><span>{el.card.name}</span></div>
                                     <div className="h-2/4">{el.links.map((el, i) => {
-                                        return <div><a key={i} href={el} target="_blank">{el}</a><br /></div>
+                                        return <div key={i}><a href={el} target="_blank">{el}</a><br /></div>
                                     })}</div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                                 <div>
                                     <div className="h-2/4 flex flex-col-reverse font-bold text-3xl"><span>{el.card.name}</span></div>
                                     <div className="h-2/4">{el.links.map((el, i) => {
-                                        return <div><a key={i} href={el} target="_blank">{el}</a><br /></div>
+                                        return <div key={i}><a href={el} target="_blank">{el}</a><br /></div>
                                     })}</div>
                                 </div>
                             </div>
