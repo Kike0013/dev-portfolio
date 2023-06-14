@@ -1,5 +1,7 @@
 "use client"
 
+import Image from "next/image"
+
 const ProjectDetail = ({ setShowDetail, projectData }) => {
     return (
         <div className='
@@ -22,7 +24,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                         <div className="mb-5 flex">
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
-                                    <img className='w-[200px]' src={`/images/projects/logos/${el.card.img}.svg`} />
+                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} />
                                     <div className="text-center font-semibold">{el.card.description}</div>
                                 </div>
                                 <div>
@@ -48,7 +50,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                         <div className="mb-5 flex">
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
-                                    <img className='w-[200px]' src={`/images/projects/logos/${el.card.img}.svg`} />
+                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} />
                                     <div className="text-center font-semibold">{el.card.description}</div>
                                 </div>
                                 <div>
@@ -74,7 +76,7 @@ const ProjectDetail = ({ setShowDetail, projectData }) => {
                         <div className="mb-5 flex">
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
-                                    <img className='w-[200px]' src={`/images/projects/logos/${el.card.img}.svg`} />
+                                    <Image src={`/images/projects/logos/${el.card.img}.svg`} width={200} height={200} />
                                     <div className="text-center font-semibold">{el.card.description}</div>
                                 </div>
                                 <div>
