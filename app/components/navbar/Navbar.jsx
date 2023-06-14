@@ -6,7 +6,7 @@ import { FaHome } from 'react-icons/fa'
 
 const Navbar = ({ pathname }) => {
 
-  const active = 'border-b-8 bg-[#4EC9B040]'
+  const active = 'border-b-8 bg-[#4EC9B040] text-[#FFC612]'
 
   return (
     <nav className="bg-[#252525] h-16">
