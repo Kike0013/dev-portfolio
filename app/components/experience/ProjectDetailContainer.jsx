@@ -14,7 +14,7 @@ const ProjectDetailContainer = ({ setShowDetail, children }) => {
         flex
         justify-center
         '>
-            <div className='bg-white overflow-auto h-[768px] w-full max-w-[1280px] text-black p-5'>
+            <div className='bg-white overflow-auto max-h-[768px] w-full max-w-[1280px] text-black p-5'>
                 <div>
                     <div className="w-full text-right">
                         <button onClick={() => setShowDetail(false)} className="pe-5 pt-4">X</button>
