@@ -6,7 +6,7 @@ const SectionCards = ({ sectionData }) => {
     return (
         <div className="
         grid
-        content-center
+        content-start
         w-full
         max-w-md
         
@@ -18,7 +18,9 @@ const SectionCards = ({ sectionData }) => {
         md:[&>*:nth-child(3)]:rounded-bl-xl
         md:grid-cols-2
         md:max-w-md
+        md:mt-60
         
+        lg:mt-72
         lg:max-w-md
         ">
             {sectionData.map((el, i) => {
