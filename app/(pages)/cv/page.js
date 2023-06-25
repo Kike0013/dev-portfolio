@@ -1,16 +1,18 @@
 import ContentContainer from "@/app/components/ContentContainer"
+import { MdOutlineOpenInNew } from 'react-icons/md'
+import { FaFileDownload } from 'react-icons/fa'
 
 const Cv = () => {
 
   return (
     <>
       <ContentContainer>
-        <div className="flex justify-center"
+        <div className="flex flex-col-reverse justify-center sm:flex-row"
           style={{
           }}
         >
           <div
-          className="
+            className="
             w-full
 
             md:w-3/4
@@ -29,14 +31,26 @@ const Cv = () => {
             }}
           >
             <iframe loading="lazy"
-            className="w-full"
+              className="w-full"
               style={{
                 height: "700px"
               }}
               src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFVg35GM28&#x2F;view?embed">
             </iframe>
           </div>
-          {/* <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFVg35GM28&#x2F;view?utm_content=DAFVg35GM28&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Custom link text */}
+          <div className="flex flex-row justify-center gap-3 p-4 sm:flex-col">
+            <a
+              href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFVg35GM28&#x2F;view?utm_content=DAFVg35GM28&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+              target="_blank"
+              rel="noopener">
+              <MdOutlineOpenInNew size={70} color="#FFC612" />
+            </a>
+            <a
+              href="https://drive.google.com/drive/folders/1_0b8fcoQEnJFNJTAKJLNK9PDwZaO0SPo?usp=sharing"
+              target="_blank">
+              <FaFileDownload size={70} color="#FFC612" />
+            </a>
+          </div>
         </div>
       </ContentContainer >
     </>
