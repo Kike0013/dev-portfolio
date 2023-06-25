@@ -2,9 +2,13 @@
     "experience": [
         {
             "icons": [
-                "info",
-                "open",
-                "github"
+                {
+                    "icon": "info"
+                },
+                {
+                    "icon": "open",
+                    "link": "https://www.otif.mx/"
+                }
             ],
             "card": {
                 "name": "OTIF",
@@ -32,9 +36,17 @@
     "personal": [
         {
             "icons": [
-                "info",
-                "open",
-                "github"
+                {
+                    "icon": "info"
+                },
+                {
+                    "icon": "open",
+                    "link": "https://mellarafael.vercel.app/"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/Kike0013/dev-portfolio"
+                }
             ],
             "card": {
                 "name": "PORTFOLIO",
@@ -54,9 +66,17 @@
         },
         {
             "icons": [
-                "info",
-                "open",
-                "github"
+                {
+                    "icon": "info"
+                },
+                {
+                    "icon": "open",
+                    "link": "https://opted.vercel.app/"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/Kike0013/opted-dictionary"
+                }
             ],
             "card": {
                 "name": "OPTED",
@@ -82,8 +102,13 @@
     "other": [
         {
             "icons": [
-                "info",
-                "open"
+                {
+                    "icon": "info"
+                },
+                {
+                    "icon": "open",
+                    "link": "https://www.dominicandream.org/"
+                }
             ],
             "card": {
                 "name": "DREAM",
