@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Slider from "./Slider"
 
 const ProjectDetail = ({ data, title }) => {
 
@@ -8,7 +9,7 @@ const ProjectDetail = ({ data, title }) => {
         <>
             <h1 className="text-2xl ps-2 mb-4 font-bold">{title}</h1>
             {data.map((el, i) => {
-                return <div key={i} className="my-5">
+                return <div key={i} className="my-5 border-b">
                     <div className="mb-5 flex">
                         <div>
                             <div className="flex">
@@ -32,9 +33,9 @@ const ProjectDetail = ({ data, title }) => {
                             <p className="text-lg">{el.card.detail}</p>
                         </div>
                     </div>
-                    <div className="border-b">
-                        {/* Images */}
-                    </div>
+                    {el?.images && <div className="flex overflow-x-auto">
+                        <Slider images={el.images} />
+                    </div>}
                 </div>
             })}
         </>

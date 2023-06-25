@@ -14,6 +14,18 @@
             },
             "links": [
                 "https://www.otif.mx/"
+            ],
+            "images": [
+                "otif/otif-1",
+                "otif/otif-2",
+                "otif/otif-3",
+                "otif/otif-4",
+                "otif/otif-5",
+                "otif/otif-6",
+                "otif/otif-7",
+                "otif/otif-8",
+                "otif/otif-9",
+                "otif/otif-10"
             ]
         }
     ],
@@ -33,6 +45,11 @@
             "links": [
                 "https://mellarafael.vercel.app/",
                 "https://github.com/Kike0013/dev-portfolio"
+            ],
+            "images": [
+                "portfolio/portfolio-1",
+                "portfolio/portfolio-2",
+                "portfolio/portfolio-3"
             ]
         },
         {
@@ -50,6 +67,15 @@
             "links": [
                 "https://opted.vercel.app/",
                 "https://github.com/Kike0013/opted-dictionary"
+            ],
+            "images": [
+                "opted/opted-1",
+                "opted/opted-2",
+                "opted/opted-3",
+                "opted/opted-4",
+                "opted/opted-5",
+                "opted/opted-6",
+                "opted/opted-7"
             ]
         }
     ],
