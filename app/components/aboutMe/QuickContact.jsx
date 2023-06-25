@@ -20,7 +20,7 @@ const QuickContact = () => {
             <IconContext.Provider value={{ size: 26 }}>
                 <a href={"https://www.linkedin.com/in/mellarafael/"} target='_blank'><BsLinkedin /></a>
                 <a href={"https://github.com/Kike0013"} target='_blank'><BsGithub /></a>
-                <Link href={"/experience"}><FaFileDownload /></Link>
+                <Link href={"/cv"}><FaFileDownload /></Link>
                 <Link href={"/contact"}><MdMessage /></Link>
             </IconContext.Provider>
         </div>
