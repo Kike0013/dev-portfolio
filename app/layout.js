@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
   const pathname = usePathname()
 
-  const inDevelopment = ["/experience", /* "/cv", */ "/contact"].includes(pathname)
+  const inDevelopment = [/* "/experience", */ /* "/cv", */ "/contact"].includes(pathname)
   const [isOpen, setIsOpen] = useState(true)
 
   useEffect(() => {

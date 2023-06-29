@@ -7,6 +7,7 @@ const ContentContainer = ({ children }) => {
     bg-[#1f1f1f]
     w-full
     max-w-[1980px]
+    p-4
     
     xl:m-10
     xl:mt-4

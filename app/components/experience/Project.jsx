@@ -5,8 +5,8 @@ import Image from "next/image"
 const Project = ({ data, title, setShowDetail }) => {
     return (
         <>
-            <h1 className="text-2xl ps-2 mb-2">{title}</h1>
-            <div className="flex gap-6 ps-2 mb-5 overflow-x-auto">
+            <h1 className="text-2xl mb-2">{title}</h1>
+            <div className="flex gap-6 mb-5 overflow-x-auto">
                 {data.map((el, i) => {
                     return <div key={i} className="flex gap-2">
                         <div className="bg-white h-fit p-2 flex flex-col gap-2 rounded-l-xl min-w-[46px]">

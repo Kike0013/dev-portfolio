@@ -10,7 +10,7 @@ const ProjectDetail = ({ data, title }) => {
             <h1 className="text-2xl ps-2 mb-4 font-bold p-2 bg-slate-400">{title}</h1>
             {data.map((el, i) => {
                 return <div key={i} className="my-5 border-2 border-[#4EC9B0] bg-gray-200 py-5 px-2">
-                    <div className="mb-5 flex">
+                    <div className="mb-5 md:flex">
                         <div>
                             <div className="flex">
                                 <div className="flex flex-col items-center w-[250px]">
@@ -23,12 +23,12 @@ const ProjectDetail = ({ data, title }) => {
                             </div>
                             <div>
                                 {el.links.map((el, i) => {
-                                    return <div key={i} className="ps-6 border-b-4 border-[#4EC9B0] hover:text-blue-700"><a href={el} target="_blank">{el}</a><br /></div>
+                                    return <div key={i} className="ps-6 border-b-4 border-[#4EC9B0] hover:text-blue-700 break-words"><a href={el} target="_blank">{el}</a><br /></div>
                                 })}
                             </div>
                         </div>
-                        <div className="max-w-[700px] px-4">
-                            <p className="text-lg">{el.card.detail}</p>
+                        <div className="max-w-[700px] px-4 mt-3 md:m-0">
+                            <p className="md:text-lg">{el.card.detail}</p>
                         </div>
                     </div>
                     {el?.images && <div className="flex overflow-x-auto">
