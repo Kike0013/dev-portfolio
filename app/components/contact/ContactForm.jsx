@@ -3,7 +3,7 @@
 const ContactForm = () => {
     return (
         <>
-            <form className="flex flex-col gap-4 w-96 text-xl">
+            <form className="flex flex-col gap-4 w-96 text-xl max-w-full">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" className="rounded text-black p-1" disabled></input>
                 <label for="email">Email</label>
