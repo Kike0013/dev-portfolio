@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-center lg:pe-8 lg:items-end lg:w-2/4">
           <ContactForm />
         </div>
-        <div className="flex sm:justify-center ps-8 xl:text-xl xl:w-2/4">
+        <div className="flex sm:justify-center ps-8 lg:justify-start xl:text-xl xl:w-2/4">
           <div>
             <IconContext.Provider value={{ size: 40, color: "#FFC612" }} >
               <a href={"https://www.linkedin.com/in/mellarafael/"} target='_blank' className="flex gap-3 my-6 hover:text-[#FFC612] w-fit items-center">
