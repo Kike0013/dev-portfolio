@@ -9,6 +9,7 @@ const SectionCards = ({ sectionData }) => {
         content-start
         w-full
         max-w-md
+        h-fit
         
         md:[&>*:nth-child(2)]:border-t
         md:[&>*:nth-child(2)]:border-r
@@ -16,6 +17,8 @@ const SectionCards = ({ sectionData }) => {
         md:[&>*:nth-child(3)]:border-b
         md:[&>*:nth-child(2)]:rounded-tr-xl
         md:[&>*:nth-child(3)]:rounded-bl-xl
+        md:rounded-xl
+        md:shadow-[0_0px_3px_3px_rgba(78,201,176,1)]
         md:grid-cols-2
         md:max-w-md
         md:mt-60

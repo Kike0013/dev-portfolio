@@ -8,6 +8,7 @@ const ContentContainer = ({ children }) => {
     w-full
     max-w-[1980px]
     p-4
+    shadow-[0_0px_3px_3px_rgba(255,198,18,0.5)]
     
     xl:m-10
     xl:mt-4

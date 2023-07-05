@@ -17,7 +17,7 @@ const QuickContact = () => {
             gap-3
             
         ">
-            <IconContext.Provider value={{ size: 26 }}>
+            <IconContext.Provider value={{ size: 26, color: "#FFC612" }}>
                 <a href={"https://www.linkedin.com/in/mellarafael/"} target='_blank'><BsLinkedin /></a>
                 <a href={"https://github.com/Kike0013"} target='_blank'><BsGithub /></a>
                 <Link href={"/cv"}><FaFileDownload /></Link>

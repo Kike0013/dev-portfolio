@@ -38,7 +38,9 @@ const SectionCard = ({ data }) => {
         text-xs
         text-center
         h-4/5
-        my-5       
+        my-5
+        hover:bg-[#4EC9B040]
+        hover:text-[#FFC612]
         
         md:rounded-lg 
         
@@ -46,11 +48,9 @@ const SectionCard = ({ data }) => {
 
         lg:text-lg
         ">
-                <div className="flex flex-col items-center justify-center">
-                    <Link href={url}>
-                        <div className="font-semibold sm:text-lg md:text-xl">{title}</div>
-                    </Link>
-                </div>
+                <Link className="flex flex-col items-center justify-center" href={url}>
+                    <div className="font-semibold sm:text-lg md:text-xl">{title}</div>
+                </Link>
             </div>
         </div>
 
