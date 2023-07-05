@@ -12,6 +12,7 @@
 
 <br />
 
+<span>
 <img src="https://mellarafael.vercel.app/images/skills/1.svg" alt="drawing" width="60"/>
 <img src="https://mellarafael.vercel.app/images/skills/2.svg" alt="drawing" width="60"/>
 <img src="https://mellarafael.vercel.app/images/skills/3.svg" alt="drawing" width="60"/>
@@ -21,6 +22,7 @@
 <img src="https://mellarafael.vercel.app/images/skills/7.svg" alt="drawing" width="60"/>
 <img src="https://mellarafael.vercel.app/images/skills/8.svg" alt="drawing" width="60"/>
 <img src="https://mellarafael.vercel.app/images/skills/9.svg" alt="drawing" width="60"/>
+</span>
 
 <br />
 <br />
