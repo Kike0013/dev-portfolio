@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hi 👋 I'm glad to share with you my personal portfolio
 
-## Getting Started
+### It is built with the purpose of showing my skills and experience acquired in the field of IT/Software Development.
+<br />
 
-First, run the development server:
+## Take a look: [mellarafael.vercel.app/](https://mellarafael.vercel.app/) 📌
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<br />
+<br />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✅ My Skills
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<br />
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<img src="https://mellarafael.vercel.app/images/skills/1.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/2.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/3.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/4.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/5.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/6.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/7.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/8.svg" alt="drawing" width="60"/>
+<img src="https://mellarafael.vercel.app/images/skills/9.svg" alt="drawing" width="60"/>
 
-## Learn More
+<br />
+<br />
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🌐 Connect with me on LinkedIn: [linkedin.com/in/mellarafael/](https://www.linkedin.com/in/mellarafael/) 📌
