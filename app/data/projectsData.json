@@ -97,6 +97,35 @@
                 "opted/opted-6",
                 "opted/opted-7"
             ]
+        },
+        {
+            "icons": [
+                {
+                    "icon": "info"
+                },
+                {
+                    "icon": "open",
+                    "link": "https://cloudlab-s9-16.vercel.app/"
+                },
+                {
+                    "icon": "github",
+                    "link": "https://github.com/No-Country/s9-16-m-node-react"
+                }
+            ],
+            "card": {
+                "name": "CLOUDLAB",
+                "img": "cloudlab",
+                "description": "Clinical Laboratory App",
+                "detail": "Cloudlab is a platform for clinical laboratories seeking to streamline the management of the results of different studies and patients, where we will have as main user the clinical laboratory. It is a collaborative practice project carried out in an emulation of work on the No Country platform."
+            },
+            "links": [
+                "https://cloudlab-s9-16.vercel.app/",
+                "https://github.com/No-Country/s9-16-m-node-react"
+            ],
+            "images": [
+                "cloudlab/cloudlab-1",
+                "cloudlab/cloudlab-2"
+            ]
         }
     ],
     "other": [

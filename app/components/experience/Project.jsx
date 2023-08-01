@@ -13,7 +13,7 @@ const Project = ({ data, title, setShowDetail }) => {
                             {el.icons.map((el, i) => {
                                 return <div key={i} className='w-[30px]'>
                                     {el.icon === "info"
-                                        ? <Image src={`/images/projects/icons/${el.icon}.svg`} width={30} height={30} alt="icon" onClick={() => setShowDetail(true)} />
+                                        ? <Image src={`/images/projects/icons/${el.icon}.svg`} width={30} height={30} alt="icon" onClick={() => setShowDetail(true)} className="cursor-pointer" />
                                         : <a href={el.link} target="_blank"><Image src={`/images/projects/icons/${el.icon}.svg`} width={30} height={30} alt="icon" /></a>
                                     }
                                 </div>
