@@ -34,5 +34,13 @@
     {
         "num": "9",
         "alt": "Git"
+    },
+    {
+        "num": "10",
+        "alt": "Typescript"
+    },
+    {
+        "num": "11",
+        "alt": "Node"
     }
 ]

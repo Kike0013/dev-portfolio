@@ -50,7 +50,7 @@ const About = () => {
                         <br />
                         <p>Now I work in frontend development, I like to turn ideas and designs into experiences and interactions that bring satisfaction to the user.</p>
                         <br />
-                        <p>That&apos;s me as a frontend developer (for now), as I have basic knowledge of backend and database technologies, which I explore from time to time to improve my stack of skills.</p>
+                        <p>Additionally, I explore and use backend technologies, data oriented languages and database systems to enrich my knowledge and skills as a developer.</p>
                         <br />
                         <p>For any information, I will be happy to assist.
                             Just go to my <Link href="/contact" className="text-[#4EC9B0]"><u>contact section</u></Link> or email me at <a href="mailto:kike0013pro@gmail.com" className="text-[#4EC9B0]"><u>kike0013pro@gmail.com</u></a><br/>
