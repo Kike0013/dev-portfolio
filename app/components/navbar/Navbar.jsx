@@ -3,6 +3,7 @@
 import Link from "next/link"
 import menuItems from '../../data/sectionCards'
 import { FaHome } from 'react-icons/fa'
+import Collapse from "./Collapse"
 
 const Navbar = ({ pathname }) => {
 
@@ -18,23 +19,30 @@ const Navbar = ({ pathname }) => {
         w-full
         max-w-7xl
         text-xs
-        sm:text-xl
+        md:text-xl
         ">
-          <li className="mx-4 pe-4 border-r"><Link href={'/'}><FaHome size={35} /></Link></li>
+          <li className="mx-4 pe-4 border-0 md:border-r"><Link href={'/'}><FaHome size={35} /></Link></li>
           {menuItems.map((el, i) => {
             return <li key={i}
               className={`
               h-full
               w-full
-              flex
-              justify-center
-              items-center
+              hidden
+              md:flex
+              md:justify-center
+              md:items-center
               text-center
               hover:bg-[#4EC9B040]
               border-b-[#FFC612]
               ${pathname === el.url ? active : null}
               `}><Link href={el.url}>{el.title}</Link></li>
           })}
+          <div>
+            <Collapse
+              menuItems={menuItems}
+              pathname={pathname}
+            />
+          </div>
         </ul>
       </div>
     </nav>
