@@ -12,31 +12,22 @@ const Cv = () => {
           }}
         >
           <div
-            className="w-full md:w-3/4 xl:w-2/5 flex"
+            className="w-full flex h-[700px]"
             style={{
-              height: "700px",
-              boxShadow: "0 2px 8px 0 rgba(63, 69, 81, 0.16)",
-              borderRadius: "8px",
               willChange: "transform",
               overflow: "auto"
             }}
           >
             <iframe
               loading="lazy"
-              src="https://docs.google.com/document/d/e/2PACX-1vSSFDdqbw0jVqytNME4WgwbEYw8YnhpPeLVbfqbhjuK9LjKVfMHlG9EfDTJQhW5B4mToab9HA_qRNr1/pub?embedded=true"
+              src="https://drive.google.com/file/d/1W24n-PLNisvRsJpdzuIDP_fW8ogng96l/preview"
               className="w-full"
             >
             </iframe>
           </div>
           <div className="flex flex-row justify-center gap-3 p-4 md:flex-col">
             <a
-              href="https://docs.google.com/document/d/1MPYlGkIhpV-BmMw8yrWCr9BR-5FAPPgBF5y0hEfhBm8/edit?usp=sharing"
-              target="_blank"
-              rel="noopener">
-              <MdOutlineOpenInNew size={40} color="#FFC612" />
-            </a>
-            <a
-              href="https://drive.google.com/drive/folders/1_0b8fcoQEnJFNJTAKJLNK9PDwZaO0SPo?usp=sharing"
+              href="https://drive.google.com/file/d/1W24n-PLNisvRsJpdzuIDP_fW8ogng96l/view?usp=sharing"
               target="_blank">
               <FaFileDownload size={35} color="#FFC612" />
             </a>
