@@ -12,10 +12,10 @@ import Navbar from './components/navbar/Navbar';
 
 const font = Source_Code_Pro({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Enrique Mella - Frontend Developer',
-  description: 'Welcome to my personal portfolio!',
-}
+// export const metadata = {
+//   title: 'Enrique Mella - Frontend Developer',
+//   description: 'Welcome to my personal portfolio!',
+// }
 
 export default function RootLayout({ children }) {
 
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>Enrique Mella - Frontend Developer</title>
-        <meta name='description' content='Personal Portfolio' />
+        <meta name='description' content='Welcome to my personal portfolio!' />
       </Head>
       <body className={`${font.className}`}>
         <main ref={bgRef} className='h-screen'>
